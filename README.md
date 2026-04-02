@@ -1,14 +1,15 @@
 # GDIM 33 In-Class Activities
 ## W1
 ### Activity 1
-Put your inspo board link here. Do NOT leave a bare URL. REMOVE ALL INSTRUCTIONAL TEXT.
-
-1. Put your activity 1 answers here.
-2. Please keep the proper list format.
+<img width="2142" height="1198" alt="c0d990d4-9914-4d6b-9359-085f1fd73009" src="https://github.com/user-attachments/assets/00a081af-ca9c-4d96-8d2b-01b9ba43f158" />
+1. So, Everything I got is sort of related to a game that gives strong feedback(visually)to the player, scenes like falling, going through a black hole, or cutting stuff, so I am really thinking about having these elements combined and making a rhythm game that gives the player a sense of achievement, so I might just have a 3d scene with player FALLING and CUTTING/SHOOTING BOXES/MONSTERS as MUSIC goes.
+2. One of my groupmates is also thinking about a 3d game with Main Player, Dialogue, and Interaction with NPCs; however, he used the word STATIONARY, which opposes my idea for my game. I personally like actions, high tension, and strong feedback; his style is much slower and calmer than mine.
+3. Our LA Josh loves competitive games(OW, League, APEX, RainbowSix Seige...)Which is quite similar to my tastes(I play these competitive games as well), and they are full of action and allow players to earn a sense of achievement through hard grinding.
 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+<img width="1474" height="1106" alt="3a363354-0926-478f-aa87-2463e4e60dcc" src="https://github.com/user-attachments/assets/4fd457cd-4817-49c5-8b51-1d5e8208b880" />
+
 
 
 ## W2
