@@ -13,6 +13,11 @@
 
 
 ## W2
-Write your W2 Devlog here.
+###Activity 1
+<img width="1842" height="1114" alt="fa93cb6a-8f97-49e7-8a8a-ccfbe8758762" src="https://github.com/user-attachments/assets/80158077-79ea-4f08-aa11-aa9c40b25cde" />
 
-Continue adding additional headers below this one for future weeks and future activities.
+###Activity 2
+1. Using a Scene variable keeps the event name consistent across graphs and avoids typos. It also makes it easier to change the event name later.
+2. Debug.Log helped me check whether each step was working, such as whether the walrus click was detected and whether the state transition was triggered. It made debugging much easier.
+3. Yeah, because gameplay and UI require different input styles. Locking the cursor is useful during gameplay, while unlocking it is needed for UI interaction.
+4. Yes, because my game has different phases that require different behaviors. Using states helps manage these transitions more clearly.
