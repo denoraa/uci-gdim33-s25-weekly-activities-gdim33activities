@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
+  m_Name: DialogueLineW4 1
+  m_EditorClassIdentifier: 
+  Line: Nice To Meet u
+  ReplyOptions:
+  - line: doing
+    nextNode: {fileID: 11400000, guid: 132acd500e61445418cb899894003118, type: 2}
+  - line: bed
+    nextNode: {fileID: 11400000, guid: 99d0316ef55ed437a8a3ec7c75556a52, type: 2}

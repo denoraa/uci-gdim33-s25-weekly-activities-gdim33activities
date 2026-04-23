@@ -629,10 +629,12 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"npcText","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
       Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"buttonParent","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Button","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 321970412}
     - {fileID: 1864240423}
+    - {fileID: 1844561658382488666, guid: 3d1ef0c5b5172413abf23cd502bc8c52, type: 3}
 --- !u!114 &281787051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -645,7 +647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb1e5b7a55be434fb3cef9588182ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDialogue: {fileID: 11400000, guid: 811db0b0053d54ec29f09ff4fb97912f, type: 2}
+  startingDialogue: {fileID: 11400000, guid: c9119ba23631e4f299bb7505fac33840, type: 2}
 --- !u!1 &321970410
 GameObject:
   m_ObjectHideFlags: 0
