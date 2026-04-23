@@ -21,3 +21,17 @@
 2. Debug.Log helped me check whether each step was working, such as whether the walrus click was detected and whether the state transition was triggered. It made debugging much easier.
 3. Yeah, because gameplay and UI require different input styles. Locking the cursor is useful during gameplay, while unlocking it is needed for UI interaction.
 4. Yes, because my game has different phases that require different behaviors. Using states helps manage these transitions more clearly.
+
+
+## W4
+
+###Activity 1
+1. What is playable in your build right now?
+     You can press 6 buttons to hit, and when you tap, they change color to indicate a hit.
+2. Playtesting goal(s).
+    I don't have much for playtest because I was working on the framework and didn't do much on gameplay(the framework was bigger than I expected), I am just gonna see if my buttons works :)
+3. Play Testers
+   Names: Leo.Abe, 
+
+
+
