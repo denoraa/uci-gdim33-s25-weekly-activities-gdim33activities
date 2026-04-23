@@ -27,11 +27,17 @@
 
 ###Activity 1
 1. What is playable in your build right now?
-     You can press 6 buttons to hit, and when you tap, they change color to indicate a hit.
+     You can press 6 buttons to hit, and when you tap one, it changes color to indicate a hit.
 2. Playtesting goal(s).
     I don't have much for playtest because I was working on the framework and didn't do much on gameplay(the framework was bigger than I expected), I am just gonna see if my buttons works :)
 3. Play Testers
-   Names: Leo.Abe, 
-
-
+   Names: Leo Sydney Abe, Han Yang
+4. Playtest Notes
+   Leo: The buttons were gooooooooooood, but it's better to have some gameplay.
+   Han Yang: Love the buttons, yeah, but probably grind more this week.
+   
+###Activity 2
+1.Yes. After the programmer builds the system, a writer can add new DialogueNodeW4 ScriptableObjects, write dialogue lines, and connect replies without coding.
+2.There is no strict limit. A writer can keep making nodes, but the practical limits are organization, time, and project size.
+3.The Regenerate Nodes button refreshes the Visual Scripting library so new scripts, methods, and custom classes appear as nodes.
 
