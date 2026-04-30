@@ -41,3 +41,36 @@
 2.There is no strict limit. A writer can keep making nodes, but the practical limits are organization, time, and project size.
 3.The Regenerate Nodes button refreshes the Visual Scripting library so new scripts, methods, and custom classes appear as nodes.
 
+
+## W5
+
+###Activity 1
+Feature Goal:
+I want to add a player hit animation system using Unity’s Animator. When the player presses the hit key, the character will play a different attack animation instead of staying idle. 
+This makes the rhythm action feel more responsive and gives the player visual feedback.
+
+Big Step 1: Set up the simplest Animator
+Add an Animator component to the player.
+Create an Animator Controller and assign it to the player.
+Add one idle animation as the default state.
+Test: Run the game and check if the player plays idle animation.
+
+Big Step 2: Add one hit animation
+Import one hit/attack animation from the asset pack.
+Add it into the Animator Controller.
+Create a Trigger parameter called Hit.
+Add transition: Idle -> Hit, using the Hit trigger.
+Add transition: Hit -> Idle, with Has Exit Time on.
+Test: Manually press the trigger in Animator or call it from code and check if the animation plays.
+
+Big Step 3: Connect animation to rhythm input
+In the player input script, detect the hit key.
+When the player presses the hit key, call:
+animator.SetTrigger("Hit");
+Test in Play Mode by pressing the hit key.
+Later, connect different hit animations to different lanes or note types.
+
+###Activity 2
+I worked on adding a player hit animation system with Unity Animator. I imported my animation asset pack, added an Animator Controller to the player, 
+and set up an idle animation plus a hit animation. Then I connected the hit animation to player input, so when the player presses the hit key, the character plays a hit animation. 
+This gives the player clearer visual feedback and makes the rhythm gameplay feel more responsive.
