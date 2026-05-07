@@ -90,3 +90,16 @@ Note:
      4. Animation bugging laggy
 
 ###Activity 2
+
+Question 1:
+Multiply makes colors darker because RGB values are between 0 and 1, so multiplying them usually creates smaller values.
+
+Question 2:
+The result becomes more transparent because multiplying alpha values usually lowers the final alpha.
+
+Question 3:
+The shader gets UV values from the mesh’s UV coordinates stored on the model.
+
+Question 4:
+Yes, it’s interesting because it shows how math can control visual effects and colors in games.
+
