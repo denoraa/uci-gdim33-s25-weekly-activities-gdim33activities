@@ -74,3 +74,19 @@ Later, connect different hit animations to different lanes or note types.
 I worked on adding a player hit animation system with Unity Animator. I imported my animation asset pack, added an Animator Controller to the player, 
 and set up an idle animation plus a hit animation. Then I connected the hit animation to player input, so when the player presses the hit key, the character plays a hit animation. 
 This gives the player clearer visual feedback and makes the rhythm gameplay feel more responsive.
+
+## W6
+
+###Activity 1
+
+1. What is NEW in your build since your Milestone 1 submission: I added animation and adjusted score system and added some ui
+2. Link to Itch page : https://jingc35.itch.io/beatsingularity-w6
+3. Playtesting goal: See if the animation runs smooth and what other visual features need to be improved
+
+Note:
+     1. Add some visual effects for the notes being hit, not obviuous
+     2. The music was not loud enough
+     3. Add Complexity to the level
+     4. Animation bugging laggy
+
+###Activity 2
