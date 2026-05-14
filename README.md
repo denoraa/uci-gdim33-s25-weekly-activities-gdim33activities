@@ -103,3 +103,28 @@ The shader gets UV values from the mesh’s UV coordinates stored on the model.
 Question 4:
 Yes, it’s interesting because it shows how math can control visual effects and colors in games.
 
+## W7
+
+### Activity 1
+
+Question 1:
+The Vertex Color node gets its data from the Shiba mesh itself. Each vertex already stores color information.
+
+Question 2:
+The colors blend because the GPU smoothly interpolates the vertex colors across each triangle.
+
+Question 3:
+The vertex-colored Shiba looks less detailed because the color only exists on the vertices, while textures have much more detail. Vertex color is still useful for stylized art, masks, debug views, and simple effects.
+
+Question 4:
+Yeah, the back-left leg looks off in the normal debug shader, which probably means the normals there are incorrect.
+
+Question 5:
+UV coordinates would also be useful to debug with a shader because they can help spot stretched or incorrect texture mapping.
+
+Question 6:
+The lighting looks wrong at first because the light direction and surface normals point opposite ways, causing negative dot product values until the light direction is flipped.
+
+Question 7:
+We used Additive blending because it makes the fire look brighter and more glowy instead of flat.
+
