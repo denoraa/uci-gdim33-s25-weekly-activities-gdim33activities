@@ -128,3 +128,18 @@ The lighting looks wrong at first because the light direction and surface normal
 Question 7:
 We used Additive blending because it makes the fire look brighter and more glowy instead of flat.
 
+## W8
+
+### Activity 2
+
+Question 1:
+In the Frame Debugger, the post-processing pass is called RedPulsePostEffect. I know it is my effect because it comes from the Full Screen Pass Renderer Feature in URP_PostEffect_Renderer, and that feature uses the PostEffect material.
+
+Question 2:
+When the Lerp value is 0.5, the scene is halfway blended with the red cobblestone texture overlay. When the Lerp value is 0, the scene looks normal. When the Lerp value is 1, the screen fully shows the multiplied post effect result.
+
+Question 3:
+Lerp blends between two inputs. In this effect, input A is the original camera buffer and input B is the camera buffer multiplied by the EffectTex texture. Smaller Lerp values keep more of the original image, and larger values push the result closer to the textured red overlay.
+
+Question 4:
+The formula (sin(time)+1)/2 is used because sin(time) normally moves from -1 to 1. Adding 1 shifts it to 0 to 2, and dividing by 2 remaps it to 0 to 1, which is the range Lerp expects.
