@@ -130,6 +130,18 @@ We used Additive blending because it makes the fire look brighter and more glowy
 
 ## W8
 
+### Activity 1
+
+##Goal
+     1:check the black hole visual effect's smoothness, and if the animation doesn't lag anymore
+     2:see what other visual effects I need to add
+     3:getting suggestions for what kind of song I should actually be adding
+##Rsult
+     1. blackhole effect can be more than just flashing purple, maybe make some cool shader to render the scene, perhaps+cooler clearer sound effect
+     2. make the effects that the block explose after hitting would make the visual better and clearer
+     4. just whatever that's short because the music score system is all in data none visual, so it's hard to make a long song
+     
+
 ### Activity 2
 
 Question 1:
