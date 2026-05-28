@@ -155,3 +155,65 @@ Lerp blends between two inputs. In this effect, input A is the original camera b
 
 Question 4:
 The formula (sin(time)+1)/2 is used because sin(time) normally moves from -1 to 1. Adding 1 shifts it to 0 to 2, and dividing by 2 remaps it to 0 to 1, which is the range Lerp expects.
+
+## W9
+
+### Activity 1
+
+Game: League of Legends
+
+1. Character Selection Highlight
+
+What it does:
+When the player hovers over or clicks a champion, the champion gets highlighted.
+
+How I think it works:
+
+Probably applied only to specific objects rather than the whole screen.
+Could use a special material or renderer feature.
+The shader may create an outline or glow effect around the character.
+
+How gameplay activates it:
+
+Mouse hover detected.
+The game enables a highlight material or switches the character to a special layer.
+When the cursor leaves, the effect is disabled.
+
+
+2. Fog of War
+
+What it does:
+
+Areas outside the team's vision become darkened.
+
+How I think it works:
+
+Likely a full-screen rendering effect.
+Uses information about which areas are visible.
+The shader darkens hidden regions while keeping visible regions clear.
+
+How gameplay activates it:
+
+Player movement updates vision information.
+The visible area is refreshed every frame.
+Hidden areas are rendered darker automatically.
+
+
+3. Ability Warning Indicator
+
+What it does:
+
+Some abilities show a circle, cone, or line on the ground before they activate.
+
+How I think it works:
+
+Rendered only on selected objects or locations.
+Uses transparent materials and shaders.
+May animate colors, transparency, or edge effects.
+
+How gameplay activates it:
+
+The player starts casting an ability.
+The game spawns the indicator effect.
+The indicator disappears when the ability is released or canceled.
+
