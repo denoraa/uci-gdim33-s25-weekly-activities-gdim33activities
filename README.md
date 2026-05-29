@@ -167,7 +167,7 @@ Game: League of Legends
 What it does:
 When the player hovers over or clicks a champion, the champion gets highlighted.
 
-How I think it works:
+How We think it works:
 
 Probably applied only to specific objects rather than the whole screen.
 Could use a special material or renderer feature.
@@ -186,7 +186,7 @@ What it does:
 
 Areas outside the team's vision become darkened.
 
-How I think it works:
+How We think it works:
 
 Likely a full-screen rendering effect.
 Uses information about which areas are visible.
@@ -205,16 +205,23 @@ What it does:
 
 Some abilities show a circle, cone, or line on the ground before they activate.
 
-How I think it works:
+How We think it works:
 
 Rendered only on selected objects or locations.
 Uses transparent materials and shaders.
-May animate colors, transparency, or edge effects.
 
 How gameplay activates it:
 
 The player starts casting an ability.
 The game spawns the indicator effect.
 The indicator disappears when the ability is released or canceled.
+
+
+### Activity2
+
+<img width="1551" height="1000" alt="image" src="https://github.com/user-attachments/assets/10578f08-3d8e-4b87-a2be-c7e4122bdbf7" />
+
+Today I worked on improving the Fever background ShaderGraph. The main problem I solved was making the animation more noticeable during gameplay. I added a Time-driven pulse effect using Time, Multiply, Add, and Sine Time nodes to create a smoother animated background. This makes Fever mode easier for players to recognize and gives the effect more visual impact.
+
 
     
