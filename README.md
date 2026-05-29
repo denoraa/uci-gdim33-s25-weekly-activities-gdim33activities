@@ -217,3 +217,4 @@ The player starts casting an ability.
 The game spawns the indicator effect.
 The indicator disappears when the ability is released or canceled.
 
+    
