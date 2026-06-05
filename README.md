@@ -221,7 +221,56 @@ The indicator disappears when the ability is released or canceled.
 
 <img width="1551" height="1000" alt="image" src="https://github.com/user-attachments/assets/10578f08-3d8e-4b87-a2be-c7e4122bdbf7" />
 
-Today I worked on improving the Fever background ShaderGraph. The main problem I solved was making the animation more noticeable during gameplay. I added a Time-driven pulse effect using Time, Multiply, Add, and Sine Time nodes to create a smoother animated background. This makes Fever mode easier for players to recognize and gives the effect more visual impact.
+I worked on improving the Fever background ShaderGraph. The main problem I solved was making the animation more noticeable during gameplay. I added a Time-driven pulse effect using Time, Multiply, Add, and Sine Time nodes to create a smoother animated background. This makes Fever mode easier for players to recognize and gives the effect more visual impact.
 
 
-    
+
+## W10
+
+### Activity 1
+
+Since Milestone 2, I added several features to make Beat Singularity feel more complete and easier to understand:
+
+- Added a How to Play screen explaining the controls, Hold notes, Black Hole notes, and Fever mode.
+- Added a 3-2-1-GO countdown before the music begins.
+- Added an ESC pause menu with Resume, Restart, and Main Menu options.
+- Added working master volume settings.
+- Improved the level select screen and scene navigation.
+- Expanded the results screen with accuracy, letter rank, maximum combo, judgement counts, and a saved high score.
+
+Itch: https://jingc35.itch.io/beatsingularity-w10
+
+## Playtesting Goals
+
+My main goal was to determine whether players could understand the controls and special note mechanics without receiving verbal instructions.
+
+I also wanted to test whether players could use the new pause and menu systems and whether the improved results screen encouraged them to replay the level.
+
+## Playtesting Notes
+
+The player read the How to Play screen and understood that `S`, `D`, and `F` control the top lane, and `J`, `K`, and `L` control the bottom lane. They were able to begin playing without asking for help.
+
+The player understood regular Tap notes quickly. They released the first Hold note too early, but after receiving a Miss judgement, they understood that the key needed to remain held until the end of the note.
+
+The player immediately noticed Fever mode because of the animated background and countdown. However, they did not realize that Fever also makes the timing window more forgiving.
+
+The player successfully opened the pause menu with `ESC`, resumed the game, and completed the level. On the results screen, they looked at their accuracy, rank, maximum combo, and high score. They chose to retry because they wanted to improve their rank.
+
+### Activity 2: Planning Discussion
+
+Our table's planning strategy was to begin by defining the game's core experience. We then divided the game into separate systems like input, note generation, hit judgement, scoring, music, UI, level flow, and Fever mode.
+
+and then, we created object diagrams to understand the relationships between these systems and gave each object a clear responsibility. After defining the systems, we divided each feature into small, testable tasks and completed them based on their dependencies.
+
+Planning makes the actual scope of a project easier to understand. A feature that sounds simple, such as a pause menu, requires handling player input, music, time, gameplay controls, restarting, and scene navigation.
+
+planning helped me realize that improving the tutorial, menus, pause flow, and results screen would make the game feel more complete than adding another complicated note type.
+
+### Activity 3: Vertical Slice Work
+
+Today, I improved the full player experience surrounding the rhythm gameplay.
+Previously, players received limited instructions, could not pause during a song, and did not receive much information after completing the level. I added a How to Play screen, a start countdown, a pause menu, volume controls, improved navigation, and a more detailed results screen.
+The results screen now displays accuracy, letter rank, maximum combo, judgement counts, and a saved high score. I also fixed a UI problem that could prevent menus from appearing correctly after changing scenes.
+
+
+<img width="2559" height="1323" alt="image" src="https://github.com/user-attachments/assets/24a6169d-4efb-4fe1-b945-a7f536c5b765" />
